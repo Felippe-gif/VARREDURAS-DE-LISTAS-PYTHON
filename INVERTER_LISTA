@@ -1,0 +1,6 @@
+print("\n\t\t --- INVERTER_LISTA ---\n")
+nomes = ["Ana", "Bruno", "Carlos", "Daniela"]
+
+invertida = nomes[::-1]  
+
+print(invertida)
