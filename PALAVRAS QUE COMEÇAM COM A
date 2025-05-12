@@ -1,4 +1,5 @@
 print("\n\\t\t --- LISTAS DAS PALAVRAS QUE COMEÇAM COM A --- \n")
+
 palavras = ["Amor", "Bola", "Avião", "Casa", "Arroz"]
 palavra_A = []
 for palavra in palavras:
