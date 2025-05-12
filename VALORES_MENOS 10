@@ -1,4 +1,5 @@
 print("\n\t\t --- VALORES MENORES QUE 10 --- \n")
+
 valores = [5, 12, 3, 20, 8, 15]
 menores_10 = []
 for valor in valores:
