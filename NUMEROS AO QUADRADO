@@ -1,0 +1,7 @@
+print("\n\t\t --- LISTAS DOS NUMEROS AO QUADRADO --- \n")
+numeros = [1, 2, 3, 4, 5]
+quadrados_numeros = []
+for numero in numeros:
+    resul = numero ** 2
+    quadrados_numeros.append(resul)
+print(f"{quadrados_numeros}")
