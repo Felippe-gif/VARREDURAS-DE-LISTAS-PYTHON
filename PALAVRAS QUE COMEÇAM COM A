@@ -1,1 +1,7 @@
-
+print("\n\\t\t --- LISTAS DAS PALAVRAS QUE COMEÇAM COM A --- \n")
+palavras = ["Amor", "Bola", "Avião", "Casa", "Arroz"]
+palavra_A = []
+for palavra in palavras:
+    if palavra[0] == "A":
+        palavra_A.append(palavra)
+print(f"{palavra_A}")
