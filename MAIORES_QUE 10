@@ -1,0 +1,8 @@
+print("\n\t\t --- MAIORES QUE 10 --- \n")
+
+valores = [5, 12, 3, 20, 8, 15]
+MAIORES_10 = []
+for valor in valores:
+   if  valor > 10:
+      MAIORES_10.append(valor)
+print(f"{MAIORES_10}") 
