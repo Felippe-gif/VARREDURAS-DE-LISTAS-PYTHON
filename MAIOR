@@ -1,0 +1,10 @@
+print("\n\t\t --- MAIOR NUMERO --- \n")
+numeros = [42, 17, 23, 56, 34]
+
+maior = numeros[0]  
+
+for numero in numeros:
+    if numero > maior:
+        maior = numero  
+
+print(f"O maior número é: {maior}")
