@@ -1,4 +1,5 @@
 print("\n\t\t --- SOMA --- \n")
+
 numeros = [1, 2, 3, 4, 5]
 soma = 0
 for numero in numeros :
