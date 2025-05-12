@@ -1,0 +1,7 @@
+print("\n\t\t --- PAR --- \n")
+numeros = [10, 15, 20, 25, 30]
+par = 0
+for numero in numeros :
+    if numero % 2 == 0 :
+        par += 1
+print(f"{par}")
