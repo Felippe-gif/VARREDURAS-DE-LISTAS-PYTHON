@@ -1,0 +1,28 @@
+cont_p = 0
+cont_ip = 0
+cont_po = 0
+cont_n = 0
+
+numeros = [
+int(input()),
+int(input()),
+int(input()),
+int(input()),
+int(input())
+]
+
+for numero in numeros :
+    if numero % 2 == 0:
+        cont_p += 1
+    else: 
+        cont_ip += 1        
+    if numero > 0 :
+        cont_po += 1
+    elif numero < 0:
+        cont_n += 1
+
+
+print(f"{cont_p} valor(es) par(es)")
+print(f"{cont_ip} valor(es) impar(es)")
+print(f"{cont_po} valor(es) positivo(s)")
+print(f"{cont_n} valor(es) negativo(s)")
